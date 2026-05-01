@@ -1,0 +1,10 @@
+# Settlers of Catan – Python dependencies
+# All packages below are from the standard library EXCEPT tkinter which ships
+# with most Python distributions (install python3-tk on Linux if missing).
+#
+# No third-party packages are required for the core game.
+# The entries below are optional extras for development.
+
+# (no third-party runtime requirements — stdlib only)
+# If you wish to run the test suite:
+# pytest>=7.0

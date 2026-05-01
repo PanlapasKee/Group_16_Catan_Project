@@ -1,0 +1,139 @@
+{
+  "players": [
+    {
+      "name": "Alice",
+      "color": "#e63946",
+      "resources": {
+        "wood": 0,
+        "brick": 1,
+        "sheep": 0,
+        "wheat": 1,
+        "ore": 1
+      },
+      "settlements": [
+        31,
+        43
+      ],
+      "cities": [],
+      "roads": [
+        [
+          31,
+          32
+        ],
+        [
+          43,
+          44
+        ]
+      ],
+      "vp": 2
+    },
+    {
+      "name": "Bob",
+      "color": "#457b9d",
+      "resources": {
+        "wood": 1,
+        "brick": 2,
+        "sheep": 0,
+        "wheat": 1,
+        "ore": 0
+      },
+      "settlements": [
+        19,
+        25
+      ],
+      "cities": [],
+      "roads": [
+        [
+          18,
+          19
+        ],
+        [
+          15,
+          25
+        ]
+      ],
+      "vp": 2
+    },
+    {
+      "name": "Carol",
+      "color": "#2a9d8f",
+      "resources": {
+        "wood": 0,
+        "brick": 3,
+        "sheep": 1,
+        "wheat": 0,
+        "ore": 0
+      },
+      "settlements": [
+        20,
+        7
+      ],
+      "cities": [],
+      "roads": [
+        [
+          20,
+          24
+        ],
+        [
+          7,
+          12
+        ]
+      ],
+      "vp": 2
+    }
+  ],
+  "current_player_index": 2,
+  "phase": "ROLL_DICE",
+  "log": [
+    "It's now Carol's turn.",
+    "It's now Carol's turn.",
+    "Carol rolled \ud83c\udfb2 4 + 3 = 7.",
+    "Robber activated \u2014 move it to a new tile.",
+    "\ud83c\udfb2 4 + 3 = 7 \u2014 Robber activated!",
+    "Cannot end turn during phase ROBBER.",
+    "Cannot roll in phase ROBBER.",
+    "Carol moved the robber to tile 10.",
+    "Carol moved the robber to tile 10.",
+    "It's now Alice's turn.",
+    "It's now Alice's turn.",
+    "Alice rolled \ud83c\udfb2 1 + 6 = 7.",
+    "Robber activated \u2014 move it to a new tile.",
+    "\ud83c\udfb2 1 + 6 = 7 \u2014 Robber activated!",
+    "Robber must move to a different tile.",
+    "Alice moved the robber to tile 14.",
+    "Alice moved the robber to tile 14.",
+    "Cannot roll in phase ACTIONS.",
+    "It's now Bob's turn.",
+    "It's now Bob's turn.",
+    "Bob rolled \ud83c\udfb2 5 + 3 = 8.",
+    "  Bob receives 1 sheep.",
+    "  Bob receives 1 sheep.",
+    "\ud83c\udfb2 5 + 3 = 8",
+    "Bob traded 4 sheep \u2192 1 wood.",
+    "Bob traded 4 sheep \u2192 1 wood.",
+    "Cannot roll in phase ACTIONS.",
+    "It's now Carol's turn.",
+    "It's now Carol's turn.",
+    "Carol rolled \ud83c\udfb2 6 + 3 = 9.",
+    "\ud83c\udfb2 6 + 3 = 9",
+    "Cannot roll in phase ACTIONS.",
+    "Cannot roll in phase ACTIONS.",
+    "It's now Alice's turn.",
+    "It's now Alice's turn.",
+    "Alice rolled \ud83c\udfb2 5 + 2 = 7.",
+    "Robber activated \u2014 move it to a new tile.",
+    "\ud83c\udfb2 5 + 2 = 7 \u2014 Robber activated!",
+    "Alice moved the robber to tile 7.",
+    "Alice moved the robber to tile 7.",
+    "It's now Bob's turn.",
+    "It's now Bob's turn.",
+    "Bob rolled \ud83c\udfb2 3 + 4 = 7.",
+    "Robber activated \u2014 move it to a new tile.",
+    "\ud83c\udfb2 3 + 4 = 7 \u2014 Robber activated!",
+    "Bob moved the robber to tile 4.",
+    "Bob moved the robber to tile 4.",
+    "It's now Carol's turn.",
+    "It's now Carol's turn.",
+    "Cannot end turn during phase ROLL_DICE."
+  ]
+}
